@@ -90,9 +90,17 @@ OPENAI_API_KEY=sk-your-actual-api-key-here
 ```
 
 5. **Run the RAG system**
+
+**Option 1: Command Line Interface**
 ```bash
 python rag_system.py
 ```
+
+**Option 2: Web Interface (Streamlit)**
+```bash
+streamlit run app.py
+```
+The web UI will open at http://localhost:8501
 
 ## 💡 How It Works
 
